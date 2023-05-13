@@ -6,9 +6,9 @@ setup(
     packages=['webuiProject'],
     url='https://github.com/webuiProject',
     license='',
-    author='myname',
-    author_email='myemail@gmail.com',
-    description='My project description',
+    author='debbieqiu',
+    author_email='debbieqiu@outlook.com',
+    description='webuiapi',
     install_requires=[
         'Flask',
         'numpy',
