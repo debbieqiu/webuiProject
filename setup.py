@@ -1,9 +1,9 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
 setup(
     name='webuiapi',
     version='1.0.0',
-    packages=['webuiProject'],
+    packages=find_packages(),
     url='https://github.com/webuiProject',
     license='',
     author='debbieqiu',

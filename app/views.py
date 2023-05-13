@@ -39,6 +39,8 @@ def get_img():
     options = {}
     options['sd_model_checkpoint'] = model_name
     print(model_name)
+    print(data["optimize"])
+    print(enums.get_lora_name(data["character"]))
     img_api.set_options(options)
 
 
