@@ -1,2 +1,2 @@
-prefix_path = '/Users/debbieqiu/Documents/HBuilderProjects/AiIcon'
-relative_path = 'static/imgs/';
+prefix_path = '../'
+relative_path = 'source/img_cache';
