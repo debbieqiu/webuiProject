@@ -2,7 +2,7 @@
 
 #autoDL
 host = 'region-42.seetacloud.com'
-port = '48792'
+port = 48792
 
 #小右本地
 #host = '172.23.182.18'

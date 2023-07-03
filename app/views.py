@@ -8,11 +8,12 @@ api = Blueprint('api', __name__)
 
 
 # txt2img
-@api.route('/txt2img', methods=['POST'])
-def txt2img():
-    data = request.get_json()
-    print(data["base"])
-    return jsonify({'code': 0, 'path': "static/imgs/1683434616_c156a544924063ed.png"})
+@api.route('/txt2img', methods=['GET'])
+def get_img_test():
+    result1 = txt2img.get_img("1girl", "", "", 1234, "Euler a", 30, 512, 512)
+
+    print(result1.image)
+    return "ok"
 
 
 @api.route('/get_img', methods=['POST'])
